@@ -1,0 +1,1 @@
+Select * from items where item_name Like ‘itemTextbox.text’;
