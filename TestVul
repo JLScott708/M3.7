@@ -1,0 +1,8 @@
+try{
+
+String sql="SELECT*FROM employee WHERE
+username='"
++username.text+
+"'AND password='"+pwd.text+"'";
+Statement stmt=con.createStatement();
+ResultSet rs=stmt.executeQuery(sql);}
